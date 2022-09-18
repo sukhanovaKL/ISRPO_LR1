@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Width="150" Height="30" Content="Button" Margin="177,156,466.6,234"></Button>
-        <TextBox Width="150" Height="30" Text="TextBox" Margin="177,191,466.6,199"></TextBox>
+        <Button Width="150" Height="30" Content="Button" Margin="177,156,466.6,234" Click="Button_Click"></Button>
+        <TextBox Width="150" Height="30" Text="TextBox" Margin="177,191,466.6,199" TextChanged="TextBox_TextChanged"></TextBox>
         <Label Width="150" Height="30" Content="Label" Margin="177,226,466.6,164"></Label>
     </Grid>
 </Window>
